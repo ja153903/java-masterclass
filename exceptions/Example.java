@@ -9,6 +9,7 @@ public class Example {
         try {
             int result = divide();
             System.out.println(result);
+            // To nest multiple catch blocks
         } catch(ArithmeticException | NoSuchElementException e) {
             System.out.println(e.toString());
             System.out.println("Unable to perform division, autopilot shutting down");
